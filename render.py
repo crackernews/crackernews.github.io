@@ -17,21 +17,25 @@ def write_json(file, obj):
         json.dump(obj, f, indent=4)
 
 
+def plural(str, count):
+    return f"{str}{'s'[:count^1]}"
+
+
 def render_ago(ts):
     age = pd.Timestamp.now() - pd.Timestamp(ts)
     minutes = max(1, age.seconds // 60)
     hours = age.seconds // 3600
     ago = ''
-    if age.days: ago = str(age.days) + (' day' if age.days % 10 == 1 else ' days')
-    elif hours: ago = str(hours) + (' hour' if hours % 10 == 1 else ' hours')
-    elif minutes: ago = str(minutes) + (' minutes' if hours % 10 == 1 else ' minutes')
+    if age.days: ago = str(age.days) + f' {plural("day", age.days)}'
+    elif hours: ago = str(hours) + f' {plural("hour", hours)}'
+    elif minutes: ago = str(minutes) + f' {plural("minute", minutes)}'
     return ago
 
 
-def render_headline(rank, headline, slug, domain, user, points, comments, posted):
+def render_headline(rank, headline, slug, domain, user, points, comments, posted, personal=False, tutorial=False):
     return f'''<tr class="athing">
-    <td align="right" valign="top" class="title"><span class="rank">{rank}.</span></td>      <td valign="top" class="votelinks"><center><a href="javascript:void(0)"><div class="votearrow" title="upvote"></div></a></center></td><td class="title"><span class="titleline"><a href="./articles/{domain}-{slug}">{headline}</a><span class="sitebit comhead"> (<a href="https://{domain}"><span class="sitestr">{domain}</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline">
-        <span class="score">{points} {"point" if points % 10 == 1 else "points"}</span> by <a href="https://news.ycombinator.com/user?id={user}" class="hnuser">{user}</a> <span class="age" title="{posted}"><a href="javascript:void(0)">{render_ago(posted)} ago</a></span> <span></span> | <a href="./comments/{domain}-{slug}">{comments}&nbsp;{"comment" if comments % 10 == 1 else "comments"}</a>        </span>
+    <td align="right" valign="top" class="title"><span class="rank">{rank}.</span></td>      <td valign="top" class="votelinks"><center><a href="javascript:void(0)"><div class="votearrow" title="upvote"></div></a></center></td><td class="title"><span class="titleline"><a href="/articles/{domain}-{slug}/">{headline}</a><span class="sitebit comhead"> (<a href="https://{domain}"><span class="sitestr">{domain}</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline">
+        <span class="score">{points} {plural("points", points)}</span> by <a href="https://news.ycombinator.com/user?id={user}" class="hnuser">{user}</a> <span class="age" title="{posted}"><a href="javascript:void(0)">{render_ago(posted)} ago</a></span> <span></span> | <a href="./comments/{domain}-{slug}/">{comments}&nbsp;{plural("comment", comments)}</a>        </span>
     </td></tr>
     <tr class="spacer" style="height:5px"></tr>
     '''
@@ -39,10 +43,12 @@ def render_headline(rank, headline, slug, domain, user, points, comments, posted
 
 def parse_comments(item, gpt_comments):
     lines = gpt_comments.split('\n')
+    since = 1
     for line in lines:
         if not line.strip(): continue
+        since = random.randint(since, 60)
+        posted = pd.Timestamp(item['posted']) + pd.Timedelta(minutes=since)
         indent, user, text = re.match(r'^(\s*)([^:]+): (.+)$', line).groups()
-        posted = pd.Timestamp(item['posted']) + pd.Timedelta(minutes=random.randint(1, 60))
         yield dict(indent=len(indent) // 4, user=user, text=text, posted=str(posted))
 
 
@@ -60,15 +66,19 @@ def render_comment(indent, user, text, posted):
         </tbody></table></td></tr>'''
 
 
-def render_comments_headline(headline, slug, domain, user, points, comments, posted):
+def render_comments_headline(headline, slug, domain, user, points, comments, posted, personal=False, tutorial=False):
     return f'''<tr class="athing">
-      <td align="right" valign="top" class="title"><span class="rank"></span></td>      <td valign="top" class="votelinks"><center><a href="javascript:void(0)"><div class="votearrow" title="upvote"></div></a></center></td><td class="title"><span class="titleline"><a href="./articles/{domain}-{slug}">{headline}</a><span class="sitebit comhead"> (<a href="https://{domain}"><span class="sitestr">{domain}</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline">
-          <span class="score">{"point" if points % 10 == 1 else "points"}</span> by <a href="https://news.ycombinator.com/user?id={user}" class="hnuser">{user}</a> <span class="age" title="{posted}"><a href="javascript:void(0)">{render_ago(posted)} ago</a></span> <span></span> | <a href="javascript:void(0)" class="hnpast">past</a> | <a href="javascript:void(0)">favorite</a> | <a href="javascript:void(0)">{comments}&nbsp;comments</a>        </span>
+      <td align="right" valign="top" class="title"><span class="rank"></span></td>      <td valign="top" class="votelinks"><center><a href="javascript:void(0)"><div class="votearrow" title="upvote"></div></a></center></td><td class="title"><span class="titleline"><a href="/articles/{domain}-{slug}/">{headline}</a><span class="sitebit comhead"> (<a href="https://{domain}"><span class="sitestr">{domain}</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline">
+          <span class="score">{plural("point", points)}</span> by <a href="https://news.ycombinator.com/user?id={user}" class="hnuser">{user}</a> <span class="age" title="{posted}"><a href="javascript:void(0)">{render_ago(posted)} ago</a></span> <span></span> | <a href="javascript:void(0)" class="hnpast">past</a> | <a href="javascript:void(0)">favorite</a> | <a href="javascript:void(0)">{comments}&nbsp;comments</a>        </span>
               </td></tr>'''
 
 
+def get_dirname(item):
+    return item['domain'] + '-' + item['slug']
+
+
 def get_dir(item, dir, mkdir=False):
-    folder = dir + '/' + item['domain'] + '-' + item['slug']
+    folder = dir + '/' + get_dirname(item)
     if mkdir:
         os.makedirs(folder, exist_ok=True)
     return folder

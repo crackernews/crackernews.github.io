@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to build a spaceship only JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        p {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to build a spaceship using only JavaScript</h1>
+    <img src="./img.jpg" style="object-fit: cover; width: 50%; margin: 0 auto; display: block;" alt="Illustration of a spaceship controlled by JavaScript">
+    <p>Building a real, functioning spaceship from scratch using only JavaScript might sound like a tall order, but it's not as far-fetched as you might think. In this article, we'll explore how to leverage the power of JavaScript to create a basic spaceship that can actually fly. Before we dive in, it's important to note that this is a theoretical exploration and should not be taken as a literal guide for constructing a spacecraft. With that said, let's get started!</p>
+
+    <h2>Step 1: Creating the spaceship structure</h2>
+    <p>Our first step is to create a basic 3D model of a spaceship using JavaScript. For this purpose, we can use a popular 3D modeling library like <a href="https://threejs.org/" target="_blank">Three.js</a>. This library will allow us to create a spaceship model and render it in a browser using WebGL.</p>
+
+    <h2>Step 2: Implementing basic flight controls</h2>
+    <p>Once we have our spaceship model, we need to add flight controls. We can use JavaScript to detect keyboard input and manipulate the spaceship's position and rotation in response to user input. This will provide the basic controls needed for our spaceship to move in a 3D environment.</p>
+
+    <h2>Step 3: Simulating a space environment</h2>
+    <p>In order to simulate a space environment, we need to account for the physics of spaceflight. For this purpose, we can use a physics engine like <a href="https://schteppe.github.io/cannon.js/" target="_blank">Cannon.js</a>. This library will allow us to simulate gravity, collisions, and other physical interactions in our virtual environment.</p>
+
+    <h2>Step 4: Adding propulsion systems</h2>
+    <p>To make our spaceship fly, we need to add a propulsion system. While JavaScript can't control actual rocket engines, we can simulate this by applying forces to our spaceship model in response to user input. For instance, when the user presses a certain key, we can apply a force in the opposite direction to simulate thrust.</p>
+
+    <h2>Step 5: Implementing telemetry and communication</h2>
+    <p>For our spaceship to be functional, we need a way to gather and transmit data about its status. This can be done using JavaScript's built-in networking capabilities, such as WebSockets, to send and receive data between our spaceship and

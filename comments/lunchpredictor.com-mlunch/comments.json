@@ -1,0 +1,62 @@
+[
+    {
+        "indent": 0,
+        "user": "dataWrangler42",
+        "text": "Interesting approach! But I think it's only a matter of time before our lunches become sentient and start predicting us instead \ud83d\ude04",
+        "posted": "2023-04-09 09:18:29.453440"
+    },
+    {
+        "indent": 1,
+        "user": "CodeSherpa",
+        "text": "Haha, I can already see my sandwich planning its escape route!",
+        "posted": "2023-04-09 10:13:29.453440"
+    },
+    {
+        "indent": 2,
+        "user": "NullPointerException",
+        "text": "And here I am, still trying to decide what to eat every day. Maybe I should just outsource my decision-making to an ML model.",
+        "posted": "2023-04-09 10:13:29.453440"
+    },
+    {
+        "indent": 1,
+        "user": "Pythoneer",
+        "text": "With enough data, anything is possible! Soon we'll have ML models for choosing our outfits, and even our daily activities. The future is here, folks!",
+        "posted": "2023-04-09 10:14:29.453440"
+    },
+    {
+        "indent": 0,
+        "user": "DevOpsDude",
+        "text": "I wonder how much training data was required for this. Any estimates?",
+        "posted": "2023-04-09 10:14:29.453440"
+    },
+    {
+        "indent": 1,
+        "user": "NeuralNerd",
+        "text": "I'd imagine the training set would need a good mix of various meals, cooking techniques, and ingredients. Maybe around 1000 unique samples for a decent model?",
+        "posted": "2023-04-09 10:15:29.453440"
+    },
+    {
+        "indent": 2,
+        "user": "DataDabbler",
+        "text": "Don't forget the importance of feature engineering! Including nutritional values, meal prep time, and personal preferences could significantly boost the model's accuracy.",
+        "posted": "2023-04-09 10:15:29.453440"
+    },
+    {
+        "indent": 0,
+        "user": "CyberSleuth",
+        "text": "While this is amusing, I think it's important to remember that machine learning is a powerful tool and should be used responsibly. Predicting lunch is fun, but there are countless other applications that could have a more significant impact on society.",
+        "posted": "2023-04-09 10:15:29.453440"
+    },
+    {
+        "indent": 1,
+        "user": "QuantumCoder",
+        "text": "Absolutely! But sometimes it's these light-hearted projects that inspire people to learn about ML and eventually use it for more meaningful purposes.",
+        "posted": "2023-04-09 10:15:29.453440"
+    },
+    {
+        "indent": 2,
+        "user": "RustyRambler",
+        "text": "Agreed. It's like how people started learning Python for fun projects and eventually ended up using it for serious data analysis and web development.",
+        "posted": "2023-04-09 10:15:29.453440"
+    }
+]

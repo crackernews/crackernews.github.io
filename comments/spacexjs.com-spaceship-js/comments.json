@@ -1,0 +1,74 @@
+[
+    {
+        "indent": 0,
+        "user": "code_rocketeer",
+        "text": "This is fascinating! But I wonder how the propulsion system would work using JavaScript?",
+        "posted": "2023-04-08 20:37:09.710187"
+    },
+    {
+        "indent": 1,
+        "user": "devMaverick_42",
+        "text": "I think the real question is: why not? JavaScript is everywhere these days, and it's just a matter of time before we get it into outer space.",
+        "posted": "2023-04-08 20:39:09.710187"
+    },
+    {
+        "indent": 2,
+        "user": "nodeRider",
+        "text": "With enough JavaScript libraries, anything is possible! I can already imagine a future where we npm install rocket-thrusters and blast off.",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 0,
+        "user": "js_enthusiast",
+        "text": "What about the performance aspect? Wouldn't using JavaScript make the spaceship slower?",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 1,
+        "user": "CamelCaseCoder",
+        "text": "I believe the key here is to use WebAssembly. With WebAssembly, you could optimize the performance-critical parts of the spaceship, while still using JavaScript for the less critical aspects.",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 2,
+        "user": "AsyncAstronaut",
+        "text": "Absolutely! The combination of JavaScript and WebAssembly could pave the way for a new era of space exploration. I can't wait to see what the future holds.",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 0,
+        "user": "captainCurlyBraces",
+        "text": "I'm more concerned about the dependencies. Imagine having to debug your spaceship mid-flight because one of your npm packages has a vulnerability!",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 1,
+        "user": "l33t_hax0r",
+        "text": "Just make sure you don't accidentally install left-pad again, and you should be fine.",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 2,
+        "user": "spaceJester",
+        "text": "Or just use a monorepo for your entire spaceship, and you won't have to worry about dependencies! Problem solved.",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 0,
+        "user": "JSorcerer",
+        "text": "I think this is a great opportunity for a new programming paradigm: Space-Oriented Programming. We can design new language features specifically for developing spaceships!",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 1,
+        "user": "snake_case_samurai",
+        "text": "I'm already imagining the possibilities! `const warpDrive = new SpaceTimeWarper({ speed: 'lightspeed' })` Here we come, Alpha Centauri!",
+        "posted": "2023-04-08 20:46:09.710187"
+    },
+    {
+        "indent": 2,
+        "user": "cosmicCoder",
+        "text": "I can't wait for the first space coding bootcamp. \"Learn to build a spaceship in just 12 weeks!\"",
+        "posted": "2023-04-08 20:46:09.710187"
+    }
+]

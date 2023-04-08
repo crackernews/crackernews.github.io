@@ -1,9 +1,15 @@
 
 import json
+import sys
+import re
 import requests
+import subprocess
 from uuid import uuid4
 
 requests.adapters.DEFAULT_RETRIES = 1
+
+GPT3 = 'text-davinci-002-render-sha'
+GPT4 = 'gpt-4'
 
 
 class Conversation:
@@ -11,23 +17,25 @@ class Conversation:
         self.model = model
         self.conversation_id = None
         self.last_message_id = None
-            
+
     def say(self, text, model=None):
+        model = model or self.model
+        print(f'[{model}] {text}')
         payload = {
-            "action":"next",
-            "messages":[
+            "action": "next",
+            "messages": [
                 {
                     "id": str(uuid4()),
-                    "author": {"role":"user"},
+                    "author": {"role": "user"},
                     "content": {
-                        "content_type":"text",
-                        "parts":[text]
+                        "content_type": "text",
+                        "parts": [text]
                     }
                 }
             ],
             "parent_message_id": str(uuid4()),
-            "model": model or self.model,
-            "timezone_offset_min":-180,
+            "model": model,
+            "timezone_offset_min": -180,
         }
         if self.conversation_id:
             payload['conversation_id'] = self.conversation_id
@@ -63,7 +71,7 @@ class Conversation:
 
         if last_one['error']:
             raise ValueError(last_one['error'])
-        
+
         self.conversation_id = last_one['conversation_id']
         self.last_message_id = last_one['message']['id']
 
@@ -72,10 +80,25 @@ class Conversation:
             print('Unusual response!')
             print(content)
             raise ValueError('unusual response')
-        return content['parts'][0]
+
+        txt = content['parts'][0]
+        print(txt)
+        return txt
 
 
-def dalle(prompt):
+def remove_triple_backticks(txt):
+    found = re.search(r'```.*\n((.|\n)+)```', txt) or re.search(r'```((.|\n)+)```', txt)
+    if found:
+        return found.group(1)
+    return txt
+
+
+def exec(*cmd):
+    print(cmd)
+    subprocess.check_call(cmd, stdout=sys.stdout, stderr=sys.stderr)
+
+
+def dalle(prompt, out_dir):
     with open('apikey', 'r') as f:
         key = f.read()
     response = requests.post(
@@ -94,4 +117,8 @@ def dalle(prompt):
     print(response.text)
     if response.status_code != 200:
         response.raise_for_status()
-    return response.json()['data'][0]['url']
+    url = response.json()['data'][0]['url']
+
+    exec('curl', url, '-o', f'{out_dir}/img.png')
+    exec('convert', f'{out_dir}/img.png', f'{out_dir}/img.jpg')
+    exec('rm', f'{out_dir}/img.png')

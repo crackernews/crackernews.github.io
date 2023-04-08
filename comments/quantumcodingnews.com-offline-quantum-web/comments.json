@@ -1,0 +1,62 @@
+[
+    {
+        "indent": 0,
+        "user": "quantumCoder42",
+        "text": "This is pretty wild! A website that's both online and offline using quantum mechanics, what a time to be alive!",
+        "posted": "2023-04-08 19:04:40.691890"
+    },
+    {
+        "indent": 1,
+        "user": "SchrodingerDev",
+        "text": "I've heard of Schr\u00f6dinger's cat, but Schr\u00f6dinger's website is definitely a new one. What's next, a quantum-powered web framework? \ud83d\ude02",
+        "posted": "2023-04-08 19:19:40.691890"
+    },
+    {
+        "indent": 2,
+        "user": "particle_phun",
+        "text": "I'm sure Heisenberg would be uncertain about that. \ud83d\ude06",
+        "posted": "2023-04-08 19:23:40.691890"
+    },
+    {
+        "indent": 1,
+        "user": "qubitMaster",
+        "text": "Can someone explain how this works? It's blowing my mind, and I don't want to collapse the superposition of my understanding.",
+        "posted": "2023-04-08 19:24:40.691890"
+    },
+    {
+        "indent": 2,
+        "user": "entangledProgrammer",
+        "text": "Basically, the website exists in a superposition of states (online and offline) until a user interacts with it, at which point it collapses into one state or the other. It's a clever play on quantum mechanics concepts, but practically, it's just a creative way to handle caching and offline functionality.",
+        "posted": "2023-04-08 19:24:40.691890"
+    },
+    {
+        "indent": 0,
+        "user": "codeSlayer9000",
+        "text": "I can already see the job postings: \"Looking for a full-stack Quantum Web Developer. Must have experience with Schr\u00f6dinger.js, Heisenberg.css, and EntanglementDB.\"",
+        "posted": "2023-04-08 19:24:40.691890"
+    },
+    {
+        "indent": 1,
+        "user": "qml_enthusiast",
+        "text": "Don't forget qRPC for your quantum API calls!",
+        "posted": "2023-04-08 19:24:40.691890"
+    },
+    {
+        "indent": 2,
+        "user": "web_dev_guru",
+        "text": "I've been using qRPC for a while now, and I still can't tell if it's faster than regular API calls or not. It's like it's both faster and slower at the same time! \ud83e\udd23",
+        "posted": "2023-04-08 19:24:40.691890"
+    },
+    {
+        "indent": 0,
+        "user": "quantumPirate",
+        "text": "Arrrr! I be plundering the quantum seas for all yer online-offline treasures! \ud83d\udc80",
+        "posted": "2023-04-08 19:24:40.691890"
+    },
+    {
+        "indent": 1,
+        "user": "noobCoder",
+        "text": "You might not want to tell people that, quantumPirate. They might think you're here to steal their qubits! \ud83c\udff4\u200d\u2620\ufe0f",
+        "posted": "2023-04-08 19:24:40.691890"
+    }
+]

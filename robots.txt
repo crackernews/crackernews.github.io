@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /comments/
+Disallow: /articles/

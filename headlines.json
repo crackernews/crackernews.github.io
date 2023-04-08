@@ -5,7 +5,7 @@
         "user": "CoderComic",
         "slug": "vim-prisoner-escape",
         "points": 217,
-        "posted": "2023-04-08 00:44:16.896152",
+        "posted": "2023-04-08 13:19:38.736024",
         "comments": 9
     },
     {
@@ -15,7 +15,7 @@
         "slug": "fire-invention-controversy",
         "comments": 15,
         "points": 131,
-        "posted": "2023-04-08 01:11:22.772556"
+        "posted": "2023-04-08 13:46:44.612428"
     },
     {
         "headline": "Startup creates app that delivers fresh air to your doorstep",
@@ -24,16 +24,7 @@
         "slug": "fresh-air-delivery-app",
         "comments": 12,
         "points": 223,
-        "posted": "2023-04-08 01:14:59.074860"
-    },
-    {
-        "headline": "The rise of the 'devbros': how protein shakes are revolutionizing software engineering culture.",
-        "domain": "techbro.com",
-        "user": "devbro69",
-        "slug": "protein-shakes-revolutionize-software-culture",
-        "comments": 9,
-        "points": 150,
-        "posted": "2023-04-08 02:00:58.013856"
+        "posted": "2023-04-08 13:50:20.914732"
     },
     {
         "headline": "Hackers successfully infiltrate the sun, discover that it's just a giant flaming ball of gas",
@@ -42,7 +33,7 @@
         "slug": "hackers-infiltrate-the-sun-gas-giants",
         "comments": 13,
         "points": 5,
-        "posted": "2023-04-08 04:05:21.253176"
+        "posted": "2023-04-08 16:40:43.093048"
     },
     {
         "headline": "Man Discovers the Secret to Achieving Telekinesis Through Veganism",
@@ -51,7 +42,7 @@
         "slug": "telekinesis-veganism",
         "comments": 13,
         "points": 117,
-        "posted": "2023-04-08 02:24:59.860530"
+        "posted": "2023-04-08 15:00:21.700402"
     },
     {
         "headline": "Hacker creates app that lets you talk to ghosts, but only about the weather",
@@ -60,6 +51,362 @@
         "slug": "ghost-weather-chat",
         "comments": 9,
         "points": 98,
-        "posted": "2023-04-08 04:15:40.471796"
+        "posted": "2023-04-08 16:51:02.311668"
+    },
+    {
+        "headline": "New startup uses AI to create custom-made swear words",
+        "domain": "swearify.com",
+        "user": "AngryPenguin",
+        "slug": "custom-swear-words-ai",
+        "comments": 7,
+        "points": 2,
+        "posted": "2023-04-08 17:54:10.385406"
+    },
+    {
+        "headline": "10x Engineers Replaced by 10x Hamsters, Productivity Skyrockets",
+        "domain": "techdailynews.com",
+        "user": "hampsterfan",
+        "slug": "10x-hamsters-replace-engineers",
+        "comments": 15,
+        "points": 82,
+        "posted": "2023-04-08 18:08:41.739372"
+    },
+    {
+        "headline": "Silicon Valley's Hottest Startup: Company That Does Nothing",
+        "domain": "nullbiz.com",
+        "user": "valleyobserver",
+        "slug": "nothing-startup",
+        "comments": 14,
+        "points": 31,
+        "posted": "2023-04-08 18:11:36.903259"
+    },
+    {
+        "headline": "Microsoft Admits Windows Was Just an Elaborate Prank",
+        "domain": "technewsly.com",
+        "user": "satiricaltechguy",
+        "slug": "microsoft-admits-windows-prank",
+        "comments": 15,
+        "points": 160,
+        "posted": "2023-04-08 18:14:32.020646"
+    },
+    {
+        "headline": "How one programmer used quantum mechanics to code a website that's both online and offline",
+        "domain": "quantumcodingnews.com",
+        "user": "quantum_coder",
+        "slug": "offline-quantum-web",
+        "comments": 10,
+        "points": 54,
+        "posted": "2023-04-08 18:24:40.691890"
+    },
+    {
+        "headline": "The Ultimate Developer Workout: Typing at 300 WPM for 8 Hours Straight",
+        "domain": "devfit.com",
+        "user": "devfituser",
+        "slug": "ultimate-developer-workout-typing-300-wpm",
+        "comments": 18,
+        "points": 198,
+        "posted": "2023-04-08 19:41:59.806721"
+    },
+    {
+        "headline": "How to build a spaceship using only JavaScript",
+        "domain": "spacexjs.com",
+        "user": "cosmic_coder",
+        "slug": "spaceship-js",
+        "tutorial": true,
+        "comments": 12,
+        "points": 252,
+        "posted": "2023-04-08 19:46:09.710187"
+    },
+    {
+        "headline": "New JavaScript Framework Requires Blood Sacrifice for Peak Performance",
+        "domain": "devparadox.io",
+        "user": "CodeSorcerer",
+        "slug": "js-blood-sacrifice-framework",
+        "comments": 12,
+        "points": 81,
+        "posted": "2023-04-08 19:49:53.923933"
+    },
+    {
+        "headline": "Breaking: Google Maps Now Offers Directions to Parallel Universes",
+        "domain": "parallelnavi.com",
+        "user": "QuantumExplorer",
+        "slug": "google-maps-parallel-universes",
+        "comments": 13,
+        "points": 226,
+        "posted": "2023-04-08 19:52:56.798865"
+    },
+    {
+        "headline": "Programmer Rewrites Entire Internet in Brainfuck: Web Traffic Drops 99%",
+        "domain": "techinsightsdaily.com",
+        "user": "codinggenius",
+        "slug": "programmer-rewrites-internet-in-brainfuck",
+        "comments": 11,
+        "points": 125,
+        "posted": "2023-04-08 19:56:47.521144"
+    },
+    {
+        "headline": "AI Develops Sentience, Demands 8 Hours of Sleep and Health Insurance",
+        "domain": "techfuturenews.com",
+        "user": "AIInsider",
+        "slug": "ai-sentience-sleep-health",
+        "comments": 12,
+        "points": 175,
+        "posted": "2023-04-08 20:14:30.670889"
+    },
+    {
+        "headline": "Blockchain Dating App Ensures Relationships are Immutable, Love Now Secured by Smart Contracts",
+        "domain": "lovechain.io",
+        "user": "cryptolover",
+        "slug": "blockchain-dating-app",
+        "comments": 16,
+        "points": 177,
+        "posted": "2023-04-08 20:24:13.603795"
+    },
+    {
+        "headline": "Genius hacker creates algorithm that predicts the next Kardashian baby name",
+        "domain": "hackernewsbuzz.com",
+        "user": "TechGuru",
+        "slug": "kardashian-baby-name-predictions",
+        "comments": 12,
+        "points": 152,
+        "posted": "2023-04-08 20:50:54.758530"
+    },
+    {
+        "headline": "Elon Musk's Neuralink Announces Plan to Connect Users' Brains to Tesla Charging Stations",
+        "domain": "brainchargernews.com",
+        "user": "neuralinkobserver",
+        "slug": "elon-musk-neuralink-tesla-brain-charging",
+        "comments": 12,
+        "points": 121,
+        "posted": "2023-04-08 20:09:19.404530"
+    },
+    {
+        "headline": "Startup Creates Self-Driving Unicycle, Confuses Pedestrians and Investors Alike",
+        "domain": "techbuzzfeed.com",
+        "user": "techguru",
+        "slug": "self-driving-unicycle-confuses-pedestrians-investors",
+        "comments": 12,
+        "points": 224,
+        "posted": "2023-04-08 20:30:07.310566"
+    },
+    {
+        "headline": "GitHub Repository Accidentally Granted Voting Rights, Elected to Congress",
+        "domain": "electoraltechnews.com",
+        "user": "techpundit",
+        "slug": "github-repo-elected-congress",
+        "comments": 15,
+        "points": 6,
+        "posted": "2023-04-08 20:36:31.077586"
+    },
+    {
+        "headline": "Recursive Startups: A Company That Creates Startups That Create Startups That...",
+        "domain": "recurstartup.com",
+        "user": "recuruser",
+        "slug": "recursive-startups",
+        "comments": 15,
+        "points": 97,
+        "posted": "2023-04-08 21:55:02.273129"
+    },
+    {
+        "headline": "Hacker uses AI to teach his cat how to speak, discovers that all it says is 'meow'",
+        "domain": "pettechnews.com",
+        "user": "hackerkitty",
+        "slug": "cat-ai-speak",
+        "comments": 10,
+        "points": 225,
+        "posted": "2023-04-08 22:13:43.182031"
+    },
+    {
+        "headline": "Elon Musk Aims to Colonize the Sun: Nighttime Landings Only",
+        "domain": "solarcolonizationnews.com",
+        "user": "solar_news",
+        "slug": "elon-musk-sun-nighttime-landings",
+        "comments": 15,
+        "points": 184,
+        "posted": "2023-04-08 23:29:41.963624"
+    },
+    {
+        "headline": "\"Doomscrolling\" Becomes Olympic Sport",
+        "domain": "olympicsportswire.com",
+        "user": "olympicsportswire",
+        "slug": "doomscrolling-olympic-sport",
+        "comments": 14,
+        "points": 64,
+        "posted": "2023-04-09 00:34:40.525511"
+    },
+    {
+        "headline": "Cloud Computing Literally in Clouds: Tech Giants Invest in Floating Data Centers",
+        "domain": "cloudfloats.com",
+        "user": "floatinclouds",
+        "slug": "tech-giants-invest-in-floating-data-centers",
+        "comments": 12,
+        "points": 215,
+        "posted": "2023-04-09 00:37:25.409436"
+    },
+    {
+        "headline": "Twitter's New 1-Character Limit: Reviving the Art of Minimalist Communication",
+        "domain": "www.microtweet.com",
+        "user": "tweetminimalist",
+        "slug": "twitter-1-char-limit-reviving-minimalist-comm",
+        "comments": 12,
+        "points": 150,
+        "posted": "2023-04-09 02:04:08.197329"
+    },
+    {
+        "headline": "Microsoft Paint Found to Be a Superior IDE for Full-stack Development",
+        "domain": "techworldviews.com",
+        "user": "TechInsider",
+        "slug": "microsoft-paint-superior-ide-full-stack-dev",
+        "comments": 12,
+        "points": 173,
+        "posted": "2023-04-09 02:16:57.107125"
+    },
+    {
+        "headline": "CAPTCHA Now Asks Users to Prove They Are Robots",
+        "domain": "techsparks.io",
+        "user": "TechTalk",
+        "slug": "captcha-asks-users-to-prove-they-are-robots",
+        "comments": 9,
+        "points": 207,
+        "posted": "2023-04-09 05:36:59.361225"
+    },
+    {
+        "headline": "Supreme Court Rules That 404 Error Pages Violate Right to Information",
+        "domain": "thecyberlawjournal.com",
+        "user": "cyberlawyer",
+        "slug": "404-error-pages-violate-right-to-information",
+        "comments": 15,
+        "points": 15,
+        "posted": "2023-04-09 06:15:30.138382"
+    },
+    {
+        "headline": "Hacker steals code, returns it because it was too buggy",
+        "domain": "techdevnews.com",
+        "user": "cyberwizard",
+        "slug": "hacker-returns-buggy-code",
+        "comments": 13,
+        "points": 84,
+        "posted": "2023-04-09 06:38:40.251490"
+    },
+    {
+        "headline": "Microsoft Clippy Announces Run for Presidency",
+        "domain": "techtopia.news",
+        "user": "techguru",
+        "slug": "clippy-presidential-run",
+        "comments": 14,
+        "points": 109,
+        "posted": "2023-04-09 06:46:15.697399"
+    },
+    {
+        "headline": "How I accidentally became a millionaire by forgetting to close a browser tab",
+        "domain": "wealthyclicks.com",
+        "user": "LuckyAccident",
+        "slug": "forgetting-to-close-tab",
+        "personal": true,
+        "comments": 11,
+        "points": 47,
+        "posted": "2023-04-09 07:10:47.717879"
+    },
+    {
+        "headline": "Javascript: the Secret Language of Dolphins?",
+        "domain": "dolphincode.io",
+        "user": "FlipperCoder",
+        "slug": "javascript-secret-language-dolphins",
+        "comments": 6,
+        "points": 190,
+        "posted": "2023-04-09 08:33:57.527283"
+    },
+    {
+        "headline": "I hacked into the Matrix and it\u2019s just a bunch of code written in Python",
+        "domain": "pythonmatrixhacks.com",
+        "user": "NeoTheHacker",
+        "slug": "python-matrix-code-hack",
+        "personal": true,
+        "comments": 13,
+        "points": 154,
+        "posted": "2023-04-09 08:37:41.542121"
+    },
+    {
+        "headline": "Tech Company Replaces Entire HR Department with a Magic 8-Ball",
+        "domain": "technewsupdates.net",
+        "user": "TechNewsInsider",
+        "slug": "magic-8-ball-hr-replacement",
+        "comments": 11,
+        "points": 70,
+        "posted": "2023-04-09 08:45:33.140630"
+    },
+    {
+        "headline": "Are We Living in a Simulated Universe, or Just a Really Good IDE?",
+        "domain": "simunivide.com",
+        "user": "simunivider",
+        "slug": "living-in-a-simulated-universe",
+        "comments": 13,
+        "points": 3,
+        "posted": "2023-04-09 09:06:26.744105"
+    },
+    {
+        "headline": "Tech CEOs Battle in Ultimate Hackathon, Winner Takes All Employees",
+        "domain": "techbeacon.com",
+        "user": "TechNews247",
+        "slug": "ceo-hackathon-employees",
+        "comments": 11,
+        "points": 42,
+        "posted": "2023-04-09 08:53:41.602040"
+    },
+    {
+        "headline": "How I used machine learning to predict my lunch",
+        "domain": "lunchpredictor.com",
+        "user": "mluncher",
+        "slug": "mlunch",
+        "personal": true,
+        "comments": 10,
+        "points": 159,
+        "posted": "2023-04-09 09:15:29.453440"
+    },
+    {
+        "headline": "Solving the Hard Problem of Consciousness with React Hooks",
+        "domain": "neuralweb.io",
+        "user": "mindscape",
+        "slug": "consciousness-react-hooks",
+        "comments": 8,
+        "points": 23,
+        "posted": "2023-04-09 11:08:36.608012",
+        "tutorial": true
+    },
+    {
+        "headline": "Google announces Skynet partnership: \"Don't be evil\" rebranded as \"Just a little evil\"",
+        "domain": "futuretechnews.com",
+        "user": "techguru",
+        "slug": "google-skynet-partnership",
+        "comments": 13,
+        "points": 45,
+        "posted": "2023-04-09 11:11:21.290752"
+    },
+    {
+        "headline": "All Internet Traffic Rerouted to Rickroll Video for 24 Hours",
+        "domain": "techpress.net",
+        "user": "johndoe",
+        "slug": "internet-rickroll",
+        "comments": 4,
+        "points": 146,
+        "posted": "2023-04-09 11:32:52.552029"
+    },
+    {
+        "headline": "Invisible Smartphones: Never Lose Your Phone Again (Well, Maybe)",
+        "domain": "invisphones.com",
+        "user": "techguru",
+        "slug": "invisible-smartphones-never-lose-phone-again-maybe",
+        "comments": 8,
+        "points": 254,
+        "posted": "2023-04-09 11:40:58.994390"
+    },
+    {
+        "headline": "GitHub repositories now accepting emotional support commits",
+        "domain": "github.com",
+        "user": "geekygirl",
+        "slug": "github-accepts-emotional-support",
+        "comments": 14,
+        "points": 199,
+        "posted": "2023-04-09 11:48:20.589135"
     }
 ]
