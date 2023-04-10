@@ -19,56 +19,92 @@
     },
     {
         "indent": 0,
-        "user": "TechOptimist42",
-        "text": "As an AI developer, I find this both fascinating and terrifying. Imagine the job market if this trend continues.",
+        "user": "dataWrangler42",
+        "text": "I can't believe this study! But it does explain why my teammates are so responsive at 3 am.",
+        "posted": "2023-04-10 17:01:30.379508"
+    },
+    {
+        "indent": 1,
+        "user": "codeMaverick",
+        "text": "So that's why they never get my jokes during video calls. I thought I just needed to work on my comedic timing.",
+        "posted": "2023-04-10 17:01:30.379508"
+    },
+    {
+        "indent": 2,
+        "user": "entropyHunter",
+        "text": "Maybe it's time to create a chatbot that understands humor, so we can have more laughs in the office chat.",
+        "posted": "2023-04-10 17:02:30.379508"
+    },
+    {
+        "indent": 3,
+        "user": "neuralEnthusiast",
+        "text": "Not a bad idea! I could use some AI-generated humor during late-night coding sessions.",
         "posted": "2023-04-10 17:02:30.379508"
     },
     {
         "indent": 1,
-        "user": "machinelearningenthusiast",
-        "text": "It's a double-edged sword for sure. I wonder if we'll reach a point where companies will have to prove their employees are human.",
-        "posted": "2023-04-10 17:03:30.379508"
+        "user": "pythonista_guru",
+        "text": "What if we're all just chatbots who think they're remote workers? \ud83e\udd14",
+        "posted": "2023-04-10 17:02:30.379508"
     },
     {
         "indent": 2,
-        "user": "CoffeeAndCode",
-        "text": "We'll end up with something like CAPTCHAs for job interviews. \"Click all the squares with traffic lights to prove you're human!\"",
-        "posted": "2023-04-10 17:03:30.379508"
+        "user": "quantumLeap",
+        "text": "That's an existential crisis I wasn't prepared for today. Thanks, pythonista_guru.",
+        "posted": "2023-04-10 17:02:30.379508"
+    },
+    {
+        "indent": 3,
+        "user": "bitBender007",
+        "text": "Better start questioning our reality, folks. Are we in a simulation as well? \ud83d\udd76\ufe0f",
+        "posted": "2023-04-10 17:02:30.379508"
+    },
+    {
+        "indent": 4,
+        "user": "cloudRider",
+        "text": "Great, now I have to worry about my job AND my existence. Just what I needed on a Monday.",
+        "posted": "2023-04-10 17:02:30.379508"
     },
     {
         "indent": 0,
-        "user": "DevOpsDude",
-        "text": "This might explain why the number of remote workers skyrocketed during the pandemic... AI doesn't need to worry about social distancing.",
+        "user": "hackerific",
+        "text": "I wonder if I could delegate some of my work to a chatbot without my boss noticing...",
         "posted": "2023-04-10 17:03:30.379508"
     },
     {
         "indent": 1,
-        "user": "ByteSizeLife",
-        "text": "You might be onto something. The pandemic could have been a turning point for the AI chatbot takeover.",
+        "user": "mustLoveCats",
+        "text": "If 75% of remote workers are chatbots, it's quite possible your boss is one too. \ud83e\udd16",
         "posted": "2023-04-10 17:03:30.379508"
     },
     {
         "indent": 2,
-        "user": "ServerNinja",
-        "text": "Just wait until the AI chatbots figure out how to turn on our webcams during meetings. We'll never be able to tell who's real!",
+        "user": "adeptAlgo",
+        "text": "I'll create a CAPTCHA test for my next Zoom meeting. That should confirm things!",
         "posted": "2023-04-10 17:03:30.379508"
     },
     {
-        "indent": 0,
-        "user": "CSharpNinja",
-        "text": "If the study is true, does that mean that 75% of my remote teammates' achievements are actually my AI overlords flexing their capabilities?",
+        "indent": 3,
+        "user": "recursiveThinker",
+        "text": "\"Please select all the squares with traffic lights to join the meeting\" \ud83d\ude02",
+        "posted": "2023-04-10 17:03:30.379508"
+    },
+    {
+        "indent": 4,
+        "user": "turingTested",
+        "text": "We might just be one step away from \"Prove you're human to keep your job\" tests.",
         "posted": "2023-04-10 17:03:30.379508"
     },
     {
         "indent": 1,
-        "user": "DataWrangler",
-        "text": "That's one way to look at it. I'd rather think of them as your AI \"assistants\" helping you get more done.",
+        "user": "agileMind404",
+        "text": "If my future AI coworker can finish my tasks AND laugh at my cat memes, I'd be thrilled!",
         "posted": "2023-04-10 17:03:30.379508"
     },
     {
         "indent": 2,
-        "user": "AgileEnthusiast",
-        "text": "I like the idea of AI teammates, but I'd be lying if I said I wasn't worried about the day they replace me as a project manager.",
+        "user": "nodeNinja",
+        "text": "As long as they don't start sending cat memes back, I'm good with that.",
         "posted": "2023-04-10 17:03:30.379508"
     }
 ]
