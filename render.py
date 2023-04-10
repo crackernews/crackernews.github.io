@@ -35,7 +35,7 @@ def render_ago(ts):
 def render_headline(rank, headline, slug, domain, user, points, comments, posted, personal=False, tutorial=False):
     return f'''<tr class="athing">
     <td align="right" valign="top" class="title"><span class="rank">{rank}.</span></td>      <td valign="top" class="votelinks"><center><a href="javascript:void(0)"><div class="votearrow" title="upvote"></div></a></center></td><td class="title"><span class="titleline"><a href="/articles/{domain}-{slug}/">{headline}</a><span class="sitebit comhead"> (<a href="https://{domain}"><span class="sitestr">{domain}</span></a>)</span></span></td></tr><tr><td colspan="2"></td><td class="subtext"><span class="subline">
-        <span class="score">{points} {plural("points", points)}</span> by <a href="https://news.ycombinator.com/user?id={user}" class="hnuser">{user}</a> <span class="age" title="{posted}"><a href="javascript:void(0)">{render_ago(posted)} ago</a></span> <span></span> | <a href="./comments/{domain}-{slug}/">{comments}&nbsp;{plural("comment", comments)}</a>        </span>
+        <span class="score">{points} {plural("point", points)}</span> by <a href="https://news.ycombinator.com/user?id={user}" class="hnuser">{user}</a> <span class="age" title="{posted}"><a href="javascript:void(0)">{render_ago(posted)} ago</a></span> <span></span> | <a href="./comments/{domain}-{slug}/">{comments}&nbsp;{plural("comment", comments)}</a>        </span>
     </td></tr>
     <tr class="spacer" style="height:5px"></tr>
     '''
